@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">DiceRollerPhrases</string>
+    <string name="app_name">AppProgAva</string>
+    <string name="roll">Roll</string>
+    <string name="dois">Two Dice</string>
+    <string name="um">One Die</string>
+    <string name="phrase1">Believe in yourself!</string>
+    <string name="phrase2">You can do it!</string>
+    <string name="phrase3">Keep pushing forward!</string>
+    <string name="phrase4">Stay positive!</string>
+    <string name="phrase5">Never give up!</string>
+    <string name="phrase6">Success is near!</string>
+    <string name="phrase7">Keep the faith!</string>
+    <string name="phrase8">Dream big!</string>
+    <string name="phrase9">Work hard, stay humble!</string>
+    <string name="phrase10">Great things take time!</string>
+    <string name="phrase11">You are unstoppable!</string>
+    <string name="phrase12">The best is yet to come!</string>
+    <string name="show_message">Show Message</string>
+    <string name="title_activity_motivational_message">MotivationalMessage</string>
 </resources>
