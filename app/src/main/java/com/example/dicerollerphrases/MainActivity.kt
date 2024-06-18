@@ -56,7 +56,14 @@ fun DiceWithButtonAndImage(
         stringResource(R.string.phrase3),
         stringResource(R.string.phrase4),
         stringResource(R.string.phrase5),
-        stringResource(R.string.phrase6)
+        stringResource(R.string.phrase6),
+        stringResource(R.string.phrase7),
+        stringResource(R.string.phrase8),
+        stringResource(R.string.phrase9),
+        stringResource(R.string.phrase10),
+        stringResource(R.string.phrase11),
+        stringResource(R.string.phrase12)
+
     )
 
     val imageResource = when (result) {
