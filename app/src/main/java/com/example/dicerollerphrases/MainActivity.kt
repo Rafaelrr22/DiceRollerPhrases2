@@ -100,7 +100,12 @@ fun DiceWithButtonAndImage(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-
+        val total = result + result2
+        val message = if (numeroDados == 2) {
+            motivationalPhrases [total - 1]
+        } else {
+            motivationalPhrases [total]
+        }
 
         Button(
             onClick = {
@@ -129,7 +134,7 @@ fun DiceWithButtonAndImage(
 
         Button(
             onClick = {
-                navigateToMessageScreen(motivationalPhrases[result - 1])
+                navigateToMessageScreen(message)
             }
         ) {
             Text(text = stringResource(R.string.show_message))
