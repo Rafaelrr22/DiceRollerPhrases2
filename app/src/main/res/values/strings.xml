@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppProgAva</string>
+    <string name="app_name">DiceRollerPhrases</string>
     <string name="roll">Roll</string>
     <string name="dois">Two Dice</string>
     <string name="um">One Die</string>

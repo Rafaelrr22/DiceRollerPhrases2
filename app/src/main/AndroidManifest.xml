@@ -13,7 +13,7 @@
         android:theme="@style/Theme.DiceRollerPhrases"
         tools:targetApi="31">
         <activity
-            android:name=".MotivationalMessage"
+            android:name=".MotivationalMessageActivity"
             android:exported="false"
             android:label="@string/title_activity_motivational_message"
             android:theme="@style/Theme.DiceRollerPhrases" />

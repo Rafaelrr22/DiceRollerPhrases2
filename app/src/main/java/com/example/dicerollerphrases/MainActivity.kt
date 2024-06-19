@@ -15,8 +15,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.dicerollerphrases.MotivationalMessageActivity
-import com.example.dicerollerphrases.R
 import androidx.compose.foundation.layout.Column as Column1
 import com.example.dicerollerphrases.ui.theme.DiceRollerPhrasesTheme
 
@@ -102,7 +100,7 @@ fun DiceWithButtonAndImage(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Text(text = motivationalPhrases[result - 1])
+
 
         Button(
             onClick = {
