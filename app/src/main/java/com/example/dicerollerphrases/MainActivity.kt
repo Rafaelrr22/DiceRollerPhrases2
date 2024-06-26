@@ -48,23 +48,25 @@ fun DiceWithButtonAndImage(
     var result2 by remember { mutableStateOf(1) }
     var numeroDados by remember { mutableStateOf(1) }
 
-    val motivationalPhrases = listOf(
+    val motivationalPhrasesOneDice = listOf(
         stringResource(R.string.phrase1),
         stringResource(R.string.phrase2),
         stringResource(R.string.phrase3),
         stringResource(R.string.phrase4),
         stringResource(R.string.phrase5),
-        stringResource(R.string.phrase6),
+        stringResource(R.string.phrase6)
+
+    )
+
+    val motivationalPhrasesTwoDice = listOf(
         stringResource(R.string.phrase7),
         stringResource(R.string.phrase8),
         stringResource(R.string.phrase9),
         stringResource(R.string.phrase10),
         stringResource(R.string.phrase11),
         stringResource(R.string.phrase12)
-
     )
-
-    val imageResource = when (result) {
+        val imageResource = when (result) {
         1 -> R.drawable.dice_1
         2 -> R.drawable.dice_2
         3 -> R.drawable.dice_3
@@ -100,11 +102,12 @@ fun DiceWithButtonAndImage(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        val total = result + result2
+
         val message = if (numeroDados == 2) {
-            motivationalPhrases [total - 1]
+            val total = result + result2
+            motivationalPhrasesTwoDice [total - 2]
         } else {
-            motivationalPhrases [total]
+            motivationalPhrasesOneDice [result - 1]
         }
 
         Button(

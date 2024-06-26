@@ -3,12 +3,14 @@
     <string name="roll">Roll</string>
     <string name="dois">Two Dice</string>
     <string name="um">One Dice</string>
+    <!-- Frases um dado -->
     <string name="phrase1">Believe in yourself!</string>
     <string name="phrase2">You can do it!</string>
     <string name="phrase3">Keep pushing forward!</string>
     <string name="phrase4">Stay positive!</string>
     <string name="phrase5">Never give up!</string>
     <string name="phrase6">Success is near!</string>
+    <!-- Frases dois dados -->
     <string name="phrase7">Keep the faith!</string>
     <string name="phrase8">Dream big!</string>
     <string name="phrase9">Work hard, stay humble!</string>
